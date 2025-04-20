@@ -1,10 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
-    background-color: #4a4a6a;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-      }
-      h1 {
-        color: #42035d;
-    text-align: center;
-         }
+  background-color: #4a4a6a;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.sakums{
+  color: white;
+  text-align: center;
+}
+
+.sekcija1{
+  padding: 2rem;
+  background-color: #4a4a6a8a;
+}
+
+.konteineris1 {
+  width: 1500px;
+  margin: auto;
+}
+
+.kaste {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 450px;
+}
+
+.bilde1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.bilde1_p{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+  padding-top: 4px;
+}
+
+.interesanti_fakti{
+  text-align: center;
+  padding-bottom: 0.4rem;
+}
+
+.interesanti_fakti_aprksts{
+  text-align: center;
+}
