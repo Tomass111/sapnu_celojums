@@ -1,4 +1,7 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+*{
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,14 +17,16 @@ header {
 .sakums{
   color: white;
   text-align: center;
+  font-size: 3.2rem;
+  padding-bottom: 0.4rem;
 }
 
-.sekcija1{
+.sekcija{
   padding: 2rem;
   background-color: #4a4a6a8a;
 }
 
-.konteineris1 {
+.konteineris {
   width: 1500px;
   margin: auto;
 }
@@ -32,6 +37,7 @@ header {
   margin-bottom: 20px;
   display: inline-block;
   width: 450px;
+  border-radius: 20px;
 }
 
 .bilde1 {
@@ -56,4 +62,43 @@ header {
 
 .interesanti_fakti_aprksts{
   text-align: center;
+}
+
+.sekcija1{
+  padding: 2rem;
+  background-color: #4a4a6a;
+}
+
+.plāns{
+  text-align: center;
+  color: white;
+  padding-bottom: 2.5rem;
+  font-size: 2.2rem;
+}
+
+.konteineris1{
+  width: 1500px;
+  margin: auto;
+}
+
+table{
+  width: 100%;
+}
+
+table, th, td {
+  border:2px solid black;
+}
+
+td{
+  text-align: center;
+  padding: 0.7rem;
+}
+
+th, td{
+  color: #fff;
+}
+
+th{
+  padding: 1rem;
+  font-size: 1.2rem;
 }
