@@ -86,7 +86,7 @@ table{
 }
 
 table, th, td {
-  border:2px solid black;
+  border:2px solid rgb(0, 0, 0);
 }
 
 td{
@@ -102,6 +102,16 @@ th{
   padding: 1rem;
   font-size: 1.2rem;
 }
+
+.sekcija2{
+  background-color: #4a4a6a;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+
+  
 
 
 
